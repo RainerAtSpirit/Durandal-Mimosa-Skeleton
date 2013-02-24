@@ -1,5 +1,5 @@
 exports.config =
-  minMimosaVersion:'0.8.7'
+  minMimosaVersion:'0.10.0'
 
   modules: ['server', 'require', 'minify', 'live-reload', 'combine', 'mimosa-requirebuild-textplugin-include', 'skeleton']
 
@@ -24,7 +24,9 @@ exports.config =
 
   server:
     port: 3000
-    useDefaultServer: true
+    defaultServer: true
+    onePager: true
+
 
     views:
       compileWith: 'html'
