@@ -23,9 +23,12 @@ exports.config =
     javascriptDir: 'App'
 
   server:
+	defaultServer:
+        enabled: true
+        onePager: true
+    
     port: 3000
-    useDefaultServer: true
-
+    
     views:
       compileWith: 'html'
       extension: 'html'
