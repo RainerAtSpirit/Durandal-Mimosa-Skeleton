@@ -23,7 +23,7 @@ exports.config =
     javascriptDir: 'App'
 
   server:
-	defaultServer:
+    defaultServer:
         enabled: true
         onePager: true
     
